@@ -55,6 +55,7 @@ const personalMovieDB = {
             console.log(`Любимый жанр ${i +1} - это ${item}`);
        });
     },
+    
     toggleVisibleMyDB: function(){
         if(personalMovieDB.privat){
             personalMovieDB.privat = false;
